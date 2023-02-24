@@ -1,6 +1,10 @@
 #include "main.h"
 
 /**
+ * print_triangle - entry point
+ * kaleb
+ * Description: Prints diagonals
+ *@size: size of the triangle
  * Return: void
  */
 
