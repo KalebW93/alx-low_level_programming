@@ -1,6 +1,8 @@
 #include "main.h"
 
 /**
+ * more_numbers - nmbr fct
+ * Bwave ICT file
  * Return: no return
  */
 
@@ -19,4 +21,3 @@ int i, j;
 			_putchar('\n');
 		}
 }
-
