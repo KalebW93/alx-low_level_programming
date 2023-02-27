@@ -1,14 +1,11 @@
 #include "main.h"
 /**
- * _strlen - return the size of the string
- * @s: the string passd to the function
- *return the size of the string
- *_strlen return 16
+ * _strlen - return the length of a string
+ * @s: char to check
+ * Description: this will return the length of a string
+ * Return: 0 is success
  */
-int _strlen(char *s) /* _strlen  return the size of s or the  string 16 or a
-*Return: 0 is success
-*Description: this will return the length of a string
-*/
+int _strlen(char *s)
 {
 	int a = 0;
 
