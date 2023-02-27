@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * swap the value to variables
+ * swap_int - swaps the value of int a and int b
  * @a: first int
  * @b: second int
  */
-void swap_int(int *a, int *b) /*this function swap number*/
+void swap_int(int *a, int *b) /*swap_int - swaps the value of int a and int b*/
 {
 	int s;
 
