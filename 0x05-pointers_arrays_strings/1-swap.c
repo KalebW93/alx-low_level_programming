@@ -3,9 +3,8 @@
  * swap the value to variables
  * @a: first int
  * @b: second int
- * Return 0
  */
-void swap_int(int *a, int *b)
+void swap_int(int *a, int *b) /*this function swap number*/
 {
 	int s;
 
