@@ -2,7 +2,7 @@
 #include <stddef.h>
 
 /**
- * _strchar - this fucntion returns the first occuranc of the
+ * _strchr - this fucntion returns the first occuranc of the
  *  character in variable c
  *  @s: the string to be checked
  *
