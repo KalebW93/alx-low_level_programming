@@ -2,23 +2,26 @@
 #include <stddef.h>
 
 /**
- * _strchr - this fucntion returns the first occuranc of the
- *  character in variable c
- *  @s: the string to be checked
+ * _strchr - locates a character in a string
  *
- *  @c: the character to be searched in the string
+ * @c: occurrence of the character
  *
- *  Return: reterurn to the memory location s or Null
+ * @s: in the string
+ *
+ * Return: a pointer to the first occurrence of the character
  */
+
 char *_strchr(char *s, char c)
 {
-	while (*s != '\0')
+	while (*s)
 	{
-		if (*s == c)
-		{
+		if (*s != c)
+			s++;
+		else
 			return (s);
-		}
-		s++;
 	}
+	if (c == '\0')
+		return (s);
+
 	return (NULL);
 }
