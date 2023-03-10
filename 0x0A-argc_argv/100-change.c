@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 	changes = atoi(argv[argc - 1]);
-	if(changes < 0)
+	if (changes < 0)
 	{
 		printf("0\n");
 		return (0);
