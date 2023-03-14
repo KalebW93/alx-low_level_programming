@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
  /**
-  * free_grid - free the meorey allocated to grid.
-  * @grid: the memorey space to cleared.
+  * free_grid - this free up the grid
+  * @grid: the memorey space to cleared
   * @height: the number of alicated pointers
   *
   * Return: Nothing.
