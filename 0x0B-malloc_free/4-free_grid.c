@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 
- /**
+/**
   * free_grid - this free up the grid
   * @grid: the memorey space to cleared
   * @height: the number of alicated pointers
