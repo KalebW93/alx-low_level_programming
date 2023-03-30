@@ -15,5 +15,6 @@ int _putchar(char c);
 int print_string(char *string);
 int print_decimal(int value);
 size_t print_list(const list_t *h);
+size_t list_len(const list_t *h);
 
 #endif
