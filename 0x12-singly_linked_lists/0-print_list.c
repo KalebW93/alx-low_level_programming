@@ -30,17 +30,6 @@ size_t print_list(const list_t *h)
 	return (count);
 }
 
-
-/**
- * _putchar - fuctin prints the chaacter
- * @c: is character to be printed
- * Return: int
- */
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
-
 /**
  * _printf - prints formated text.
  *  @format: the text to be printed
